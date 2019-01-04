@@ -1,0 +1,1 @@
+%{SYSLOGTIMESTAMP:timestamp} %{GREEDYDATA}\\%{SYSLOGHOST:host_target} sshd\[%{BASE10NUM:pid}\]: Disconnected from %{IP:src_ip} port %{BASE10NUM:port}
